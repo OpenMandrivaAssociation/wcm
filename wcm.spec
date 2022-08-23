@@ -1,0 +1,40 @@
+Name:           wcm
+Version:        0.7.0
+Release:        1
+Summary:        Wayfire Config Manager
+Group:          System/Tools/Wayfire
+License:        MIT
+URL:            https://github.com/WayfireWM/wcm
+Source0:        https://github.com/WayfireWM/wcm/archive/v%{version}/%{name}-%{version}.tar.gz
+
+BuildRequires:  pkgconfig(glm)
+BuildRequires:  meson
+BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libxml-2.0)
+BuildRequires:  pkgconfig(wayfire)
+BuildRequires:  pkgconfig(wf-config) >= 0.7.0
+BuildRequires:  pkgconfig(wf-shell) >= 0.7.0
+ 
+Requires:       hicolor-icon-theme
+
+Provides: wayfire-config-manager
+ 
+%description
+Wayfire Config Manager is a Gtk3 application to configure wayfire. It writes the config file that wayfire reads to update option values.
+ 
+%prep
+%autosetup -n wcm-%{version} -p1
+ 
+%build
+%meson
+%meson_build
+ 
+%install
+%meson_install
+ 
+%files
+%license LICENSE
+%{_bindir}/wcm
+%{_datadir}/applications/*.desktop
+%{_datadir}/icons/hicolor/*/apps/*.png
+%{_datadir}/wayfire/
