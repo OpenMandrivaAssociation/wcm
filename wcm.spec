@@ -5,7 +5,7 @@ Summary:        Wayfire Config Manager
 Group:          System/Tools/Wayfire
 License:        MIT
 URL:            https://github.com/WayfireWM/wcm
-Source0:        https://github.com/WayfireWM/wcm/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/WayfireWM/wcm/releases/download/v%{version}/wcm-%{version}.tar.xz
 
 BuildRequires:  pkgconfig(glm)
 BuildRequires:  meson
