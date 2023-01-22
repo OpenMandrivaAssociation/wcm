@@ -1,5 +1,5 @@
 Name:           wcm
-Version:        0.7.0
+Version:        0.7.5
 Release:        1
 Summary:        Wayfire Config Manager
 Group:          System/Tools/Wayfire
