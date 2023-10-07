@@ -10,6 +10,7 @@ Source0:        https://github.com/WayfireWM/wcm/releases/download/v%{version}/w
 BuildRequires:  pkgconfig(glm)
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gtkmm-3.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(wayfire)
 BuildRequires:  pkgconfig(wf-config) >= 0.8.0
