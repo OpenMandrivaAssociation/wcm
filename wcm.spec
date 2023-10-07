@@ -15,6 +15,7 @@ BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(wayfire)
 BuildRequires:  pkgconfig(wf-config) >= 0.8.0
 BuildRequires:  pkgconfig(wf-shell) >= 0.8.0
+BuildRequires:  pkgconfig(xkbregistry)
  
 Requires:       hicolor-icon-theme
 
