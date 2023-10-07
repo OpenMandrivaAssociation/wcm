@@ -1,6 +1,6 @@
 Name:           wcm
-Version:        0.7.5
-Release:        2
+Version:        0.8.0
+Release:        1
 Summary:        Wayfire Config Manager
 Group:          System/Tools/Wayfire
 License:        MIT
@@ -12,8 +12,8 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(wayfire)
-BuildRequires:  pkgconfig(wf-config) >= 0.7.0
-BuildRequires:  pkgconfig(wf-shell) >= 0.7.0
+BuildRequires:  pkgconfig(wf-config) >= 0.8.0
+BuildRequires:  pkgconfig(wf-shell) >= 0.8.0
  
 Requires:       hicolor-icon-theme
 
