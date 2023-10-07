@@ -40,5 +40,4 @@ Wayfire Config Manager is a Gtk3 application to configure wayfire. It writes the
 %{_bindir}/wdisplays
 %{_datadir}/applications/*.desktop
 %{_datadir}/icons/hicolor/*/apps/*.png
-%{_datadir}/icons/hicolor/scalable/apps/wdisplays.svg
 %{_datadir}/wayfire/
