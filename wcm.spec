@@ -1,6 +1,6 @@
 Name:           wcm
 Version:        0.10.0
-Release:        1
+Release:        2
 Summary:        Wayfire Config Manager
 Group:          System/Tools/Wayfire
 License:        MIT
