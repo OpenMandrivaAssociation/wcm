@@ -35,6 +35,7 @@ Wayfire Config Manager is a Gtk3 application to configure wayfire. It writes the
  
 %install
 %meson_install
+%find_lang %{name}
  
 %files -f %{name}.lang
 %license LICENSE
